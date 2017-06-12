@@ -1,0 +1,37 @@
+.logo {color: red;}
+.list {
+  line-height: 2;
+  li {border-bottom: 1px solid #ddd;}
+}
+.breadcrumb-path {
+  padding: 16px 20px 20px;
+  margin-bottom: 20px;
+  height: 60px;
+  background: #F9FAFE;
+  font-size: 14px;
+  color: #4587E2;
+  display: block;
+  border-bottom: 1px solid #DEE6EE;
+  .ivu-breadcrumb {
+    font-size: 14px;
+    float: left;
+  }
+  .material-icons {
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    right: 3px;
+  }
+  .ivu-breadcrumb-item-link {
+    color: #4587E2;
+  }
+  .ivu-breadcrumb>span:last-child {
+    font-weight: 400;
+  }
+}
+.main-cont {padding: 0 20px;}
+.list-cont {margin-top: 20px;}
+.menu-row .fl .ivu-btn {
+  font-size: 14px;
+  padding: 10px 25px;
+}

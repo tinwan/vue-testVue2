@@ -1,0 +1,18 @@
+.login-pg {
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/login-bg.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 300px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.login-pg .el-form-item__label {
+  color: #fff;
+}
